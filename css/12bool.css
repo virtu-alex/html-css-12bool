@@ -218,7 +218,9 @@
     align-items: stretch;
 }
 
-
+/* ************ */
+/* MEDIA QUERY */
+/* ************ */
 
 @media screen and (max-width:992px) {
     .row>.col-lg-1 {
@@ -340,9 +342,11 @@
         flex-basis: 100%;
         max-width: 100%;
     }
+
     .d-md-none{
     display: none;
 }
+
 }
 
 @media screen and (max-width:576px) {
